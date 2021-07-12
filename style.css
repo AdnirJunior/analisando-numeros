@@ -1,0 +1,62 @@
+:root {
+    --cor-de-fundo: rgb(182, 182, 245);;
+}
+
+
+body{
+    background-color: var(--cor-de-fundo);
+    display: flexbox;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+header{
+    text-align: center;
+    color: white;
+}
+section{
+    width: 40%;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    align-items: left;
+    padding: 15px;
+    box-shadow: 3px 3px 10px black;
+
+}
+
+div{
+    
+    padding: 8px;
+}
+
+footer{
+    text-align: right;
+    padding: 30px;
+}
+
+div #msg_inicio, #msg_fim, #msg_passo{
+    margin-bottom: 15px;
+    border-radius: 3px;
+}
+div #fnum{
+    background-color: var(--cor-de-fundo);
+}
+div #botao{
+    width: 100px;
+    margin-left: 20px;
+}
+#flista{
+    background-color: var(--cor-de-fundo);
+    width: 50%;
+}
+#flista:hover, #fnum:hover{
+    background-color: thistle;
+}
+
+div #botao:hover{
+    background-color: black;
+    color: cornsilk;
+    cursor: pointer;
+    border-radius: 5px;
+    }
